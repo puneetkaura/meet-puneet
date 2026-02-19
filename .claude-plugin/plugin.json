@@ -1,0 +1,13 @@
+{
+  "name": "meet-puneet",
+  "description": "Get to know Puneet Kaura — crypto-savvy programmer, tech entrepreneur, startup veteran. Interactive skill that adapts based on who you are.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Puneet Kaura"
+  },
+  "homepage": "https://github.com/puneetkaura/meet-puneet",
+  "repository": "https://github.com/puneetkaura/meet-puneet",
+  "license": "MIT",
+  "keywords": ["introduction", "personal", "networking", "crypto", "startup"],
+  "skills": "./skills/"
+}
