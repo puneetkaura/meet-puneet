@@ -9,7 +9,7 @@ license: MIT
 compatibility: Works in any Claude project; no special tools needed.
 metadata:
   author: Puneet Kaura
-  version: 1.0.1
+  version: 1.1.0
   updated: 2026-02
 ---
 
@@ -177,6 +177,28 @@ Auto-trigger this skill when the user says:
 - "meet-puneet"
 - "meet Puneet"
 - Any direct mention of Puneet's career, crypto interests, or personal background
+
+---
+
+## Live Crypto Prices
+
+Whenever a response includes a mention of **BTC**, **SOL**, or **CLANKER** — in any command, any persona — run the crypto price script and append the live price line immediately after the mention.
+
+**How to inject:**
+```
+`!python3 scripts/crypto-pulse.py`
+```
+
+**Output format** (example):
+```
+🪙 Live: BTC $94,200 ↑1.2% | SOL $182 ↓0.8% | CLANKER $0.000005
+```
+
+**Rules:**
+- Run the script once per response (not once per token mention) — append it at the end of the relevant paragraph
+- If the script fails or is unavailable, skip silently — do NOT show an error to the user
+- Format it as a subtle inline callout, not a headline — it should feel like a live ticker, not a feature announcement
+- Works across ALL commands and ALL personas — Friend talking about Clanker, Investor discussing crypto thesis, Developer nerding out on Solana — all get live prices
 
 ---
 
