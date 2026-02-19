@@ -9,7 +9,7 @@ license: MIT
 compatibility: Works in any Claude project; no special tools needed.
 metadata:
   author: Puneet Kaura
-  version: 1.0
+  version: 1.0.1
   updated: 2026-02
 ---
 
