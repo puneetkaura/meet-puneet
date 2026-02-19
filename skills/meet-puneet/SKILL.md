@@ -142,7 +142,6 @@ Each persona changes the **tone, depth, and framing** of the same content.
 - **Professional**:
   - Founder of Unicom Techlabs (acquihired/acquired by Knowlarity)
   - Experience at Antler VC, Wingify (VWO)
-  - MD & CEO at Samtel Avionics
   - Netmeds.com
 - **Current Focus**: Crypto, Web3, Ethereum, blockchain, decentralized tech
 - **Style**: Curious explorer, startup veteran, family man, connects builders and thinkers
